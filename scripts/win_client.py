@@ -11,7 +11,7 @@ BASE_DIR    = SCRIPT_DIR.parent
 RESULTS_DIR = BASE_DIR / "results"
 CAPTURE_DIR = BASE_DIR / "captures"
 
-SERVER_IP     = "192.168.1.100"   # ← Replace with macOS IP shown by mac_server.py
+SERVER_IP     = "10.171.211.94"   # ← Replace with macOS IP shown by mac_server.py
 PORT          = 5201
 DURATION      = 30                # seconds per test
 INTERVAL      = 1                 # iperf3 reporting interval (seconds)
